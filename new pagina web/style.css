@@ -1,0 +1,129 @@
+body{
+	margin:0;
+	padding:0;
+	background: url(city.jpg);
+	background-size: cover;
+	background-repeat: no repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+
+.btn{
+	display: inline-block;
+	background-color:black;
+	color:white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	margin: 25px;
+	padding: 25px;
+	float: top right;
+}
+	
+.alinear{
+	width:450px;
+	height: 250px;
+	margin:0 25px;
+}
+
+
+.contenedor{
+	display: flex;
+	justify-content: center;
+}
+
+
+navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+
+.col{
+	flex-basis: 50%;
+	
+}
+
+h1{
+	color:#fff;
+	font-size: 100px;
+}
+
+
+p{
+	color:#fff;
+	font-size:20px;
+	line-height: 15px;
+}
+
+button{
+	width: 180px;
+	color: #000;
+	font-size: 12px;
+	padding: 12px 0;
+	background:#fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 20px;
+}
+
+.card{
+	width: 200px; 
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 25px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+
+.card1{
+	background-image: url(4.jpg);
+}
+.card2{
+	background-image: url(world.jpg);
+}
+
+.card3{
+	background-image: url(educacion.jpg);
+}
+
+.card:hover{
+	transform: translateY(-10px);
+}
+
+h5{
+	color: #000;
+	text-shadow: 0 0 5px #999;
+}
+
+.card
